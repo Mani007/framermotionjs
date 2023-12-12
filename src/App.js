@@ -8,10 +8,10 @@ function App() {
     <div className=' w-full items-center justify-center px-5 py-5'>
      <motion.h1 
       animate={{
-        x: 100,
+        scale: 5,
         
       }}
-      transition={{ duration: 5 }}
+      transition={{ duration: 3 }}
      className="text-6xl text-center  text-cyan-600 font-bold underline">
       Hello world!
     </motion.h1>

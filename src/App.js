@@ -11,7 +11,7 @@ function App() {
         x: 100,
         
       }}
-      transition={{ delay: 3 }}
+      transition={{ duration: 5 }}
      className="text-6xl text-center  text-cyan-600 font-bold underline">
       Hello world!
     </motion.h1>

@@ -8,9 +8,8 @@ function App() {
     <div className='container items-center justify-center px-5 py-20'>
      <motion.h1 
       animate={{
-        scale: [1, 2, 2, 1, 1],
-        rotate: [0, 0, 270, 270, 0],
-        borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+        x: 200,
+        y: 500
       }}
      className="text-6xl text-center  text-cyan-600 font-bold underline">
       Hello world!

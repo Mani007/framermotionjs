@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Box() {
+function Box(props) {
   return (
     <>
-    <div className="box-content h-25 w-32 p-4 border-4 bg-blue-500">
-  <p className='z-10 text-center text-white'>text here</p>
+    <div className="box-content h-25 w-32 p-4 rounded bg-blue-500">
+  <p className='z-10 text-center text-white'>{props.text}</p>
 </div>
     </>
   )

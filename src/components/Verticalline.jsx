@@ -3,7 +3,7 @@ import React from 'react'
 function Verticalline(props) {
   return (
     <>
-    <div className={`h-[${props.height}]  bg-green-300 w-[${props.width}]`}>
+    <div className={`h-[${props.height}]  bg-slate-700 w-[${props.width}] block`}>
 
     </div>
     </>

@@ -3,6 +3,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+### Use of git command in single line in VS code
+#### `git add . ; git commit -m "padding bottom updated" ; git push`
 
 In the project directory, you can run:
 

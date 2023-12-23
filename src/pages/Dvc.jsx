@@ -7,7 +7,7 @@ function Dvc() {
   return (
     <>
     
-      <div className='h-screen  grid  content-end items-center justify-center'>
+      <div className='relative h-screen  grid  content-end pb-5 items-center justify-center'>
       <div className="container  relative  mx-[155px]">
           <Dot color='bg-green-500'/>
         </div>
@@ -16,7 +16,7 @@ function Dvc() {
         </div>
         
         <div className="container  relative   mx-20">
-          <Box text="Your Data" />
+          <Box text="Your Data" color="bg-blue-700"/>
         </div>
       </div>
     

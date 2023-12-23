@@ -3,7 +3,7 @@ import React from 'react'
 function Verticalline(props) {
   return (
     <>
-    <div className='h-[200px]  bg-slate-700 w-[5px] block'>
+<div className={`${props.height}  bg-slate-700 ${props.width} ${props.rotate} block`}>
 
     </div>
     </>

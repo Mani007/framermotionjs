@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Dot() {
+function Dot(props) {
   return (
     <>
-    <div className='rounded-full w-4 h-4 bg-green-500'>
+    <div className={`rounded-full w-4 h-4 ${props.color}`}>
 
     </div>
     </>

@@ -11,7 +11,7 @@ function Dvc() {
       <div className="container  relative  mx-[155px]">
          <span className='inline-flex items-baseline'>
           <Dot color='bg-green-500'/>
-          <span className='px-5'>
+          <span className='px-5 '>
           <Box text="Your Data Now" color="bg-yellow-600"/>
           </span>
           

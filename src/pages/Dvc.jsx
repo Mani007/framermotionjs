@@ -2,6 +2,7 @@ import React from 'react'
 import Box from '../components/Box'
 import Verticalline from '../components/Verticalline'
 import Dot from '../components/Dot';
+import Textcommit from '../components/Textcommit';
 
 function Dvc() {
   return (
@@ -9,12 +10,24 @@ function Dvc() {
     
       <div className='relative h-screen  grid  content-end pb-5 items-center justify-center'>
       <div className="container  relative  mx-[155px]">
-         <span className='inline-flex items-baseline'>
+      
+      <Textcommit text = '34j3we5 commit'/>
+      
           <Dot color='bg-green-500'/>
-          <span className='px-5 '>
-          <Box text="Your Data Now" color="bg-yellow-600"/>
-          </span>
+          <span className='absolute left-7 -bottom-3  '>
+          <Box text="Your Data Now" color="bg-yellow-500"/>
+          </span> 
+        </div>
+      <div className="container  relative  mx-40">
+          <Verticalline height='h-[70px]' width='w-[5px]' rotate='rotate-0' />
+      </div>
+      <div className="container  relative  mx-[155px]">
+      
+          <Textcommit text = '15bwe45 commit'/>
           
+          <Dot color='bg-green-500'/>
+          <span className='absolute left-7 -bottom-3  '>
+          <Box text="Your Data Now" color="bg-yellow-500"/>
           </span>
         </div>
         <div className="container  relative  mx-40">

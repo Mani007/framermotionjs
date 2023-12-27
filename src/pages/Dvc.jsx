@@ -12,9 +12,11 @@ function Dvc() {
       <div className="container  relative  mx-[155px]">
       
       <Textcommit text = '34j3we5 commit'/>
-      
+      <div className="container  absolute left-12  -bottom-2">
+          <Verticalline height='h-[115px]' width='w-[5px]' rotate='rotate-45' />
+        </div>
           <Dot color='bg-green-500'/>
-          <span className='absolute left-7 -bottom-3  '>
+          <span className='absolute left-14 -bottom-3  '>
           <Box text="Your Data Now" color="bg-yellow-500"/>
           </span> 
         </div>
@@ -26,7 +28,7 @@ function Dvc() {
           <Textcommit text = '15bwe45 commit'/>
           
           <Dot color='bg-green-500'/>
-          <span className='absolute left-7 -bottom-3  '>
+          <span className='absolute left-14 -bottom-3  '>
           <Box text="Your Data Now" color="bg-yellow-500"/>
           </span>
         </div>

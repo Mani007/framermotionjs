@@ -10,7 +10,7 @@ function Dvc() {
       <div className="relative h-screen  grid  content-end pb-5 items-center justify-center">
       
         <div className="container  relative  mx-[155px]">
-        <div className="absolute -left-[27%]  bottom-[85px]">
+        <div className="absolute -left-[27%]  -top-[520%]">
       <Dot color="bg-blue-500" />
       </div>
           <Textcommit text="34j3we5 commit" />

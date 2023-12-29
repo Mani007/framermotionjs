@@ -8,7 +8,7 @@ function Dvc() {
   return (
     <>
       <div className="relative h-screen  grid  content-end pb-5 items-center justify-center">
-      <div className="absolute left-[172px]  bottom-[315px]">
+      <div className="absolute left-[42%]  bottom-[30%]">
       <Dot color="bg-blue-500" />
       </div>
         <div className="container  relative  mx-[155px]">

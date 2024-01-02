@@ -8,11 +8,28 @@ function Dvc() {
   return (
     <>
       <div className="relative h-screen  grid  content-end pb-5 items-center justify-center">
-      
         <div className="container  relative  mx-[155px]">
-        <div className="absolute -left-[27%]  -top-[520%]">
-      <Dot color="bg-blue-500" />
-      </div>
+        
+          <div className="container  absolute -left-[25%]  bottom-[600%]">
+            <Verticalline
+              height="h-[115px]"
+              width="w-[5px]"
+              rotate="rotate-0"
+            />
+          </div>
+          <div className="container  absolute left-[29%]  bottom-[600%]">
+            <Verticalline
+              height="h-[115px]"
+              width="w-[5px]"
+              rotate="rotate-0"
+            />
+          </div>
+          <div className="absolute -left-[27%]  -top-[520%]">
+            <Dot color="bg-blue-500" />
+          </div>
+          <div className="absolute left-[27%]  -top-[520%]">
+            <Dot color="bg-blue-500" />
+          </div>
           <Textcommit text="34j3we5 commit" />
           <div className="container  absolute left-12  -bottom-2">
             <Verticalline

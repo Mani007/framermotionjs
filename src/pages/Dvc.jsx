@@ -9,7 +9,45 @@ function Dvc() {
     <>
       <div className="relative h-screen  grid  content-end pb-5 items-center justify-center">
         <div className="container  relative  mx-[155px]">
-        
+        <div className="container  absolute -left-[25%]  bottom-[1356%]">
+            <Verticalline
+              height="h-[115px]"
+              width="w-[5px]"
+              rotate="rotate-0"
+            />
+          </div>
+          <div className="container  absolute left-[29%]  bottom-[1356%]">
+            <Verticalline
+              height="h-[115px]"
+              width="w-[5px]"
+              rotate="rotate-0"
+            />
+          </div>
+          <div className="">
+            <div className="absolute right-[25%] bottom-[1140%]">
+
+          <Textcommit text="17arc45 commit" />
+            </div>
+          
+          <div className="absolute right-[15%] bottom-[1140%]  ">
+            <Box text="Your Data Now" color="bg-green-500" />
+          </div>
+          </div>
+          <div className="absolute -left-[80%] bottom-[1140%]  ">
+            <Box text="Your Data Now" color="bg-green-500" />
+          </div>
+          <div className="absolute -left-[27%]  -top-[1260%]">
+            <Dot color="bg-purple-500" />
+          </div>
+          <div className="absolute left-[27%]  -top-[1260%]">
+            <Dot color="bg-purple-500" />
+          </div>
+          <div className="absolute right-[15%] bottom-[420%]  ">
+            <Box text="Your Data Now" color="bg-green-500" />
+          </div>
+          <div className="absolute -left-[80%] bottom-[420%]  ">
+            <Box text="Your Data Now" color="bg-green-500" />
+          </div>
           <div className="container  absolute -left-[25%]  bottom-[600%]">
             <Verticalline
               height="h-[115px]"

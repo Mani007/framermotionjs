@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import { motion } from "framer-motion"
 import Dvc from './pages/Dvc'
+import Testingpage from './pages/Testingpage';
 
 function App() {
   const [isOpen, setOpen] = useState(false)
@@ -25,8 +26,8 @@ function App() {
     className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full' > Click magic</motion.button>
     </div> */}
     <div className='flex'></div>
-    <Dvc/>
-    
+    {/* <Dvc/> */}
+    <Testingpage/>
     
     </>
   );

@@ -1,15 +1,18 @@
 import React from 'react'
-// React
+
 import { motion } from "framer-motion"
+import HocXmove from '../HOC/HocXmove'
 
 // React Server Components
 //import * as motion from "framer-motion/client"
 function Animation() {
   return (
     <>
-    <motion.div animate={{ x: 100 }}>
+    <HocXmove>
+    <div >
         <p>The animation with x moved to 100px</p>
-    </motion.div>
+    </div>
+    </HocXmove>
     </>
   )
 }

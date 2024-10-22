@@ -1,8 +1,9 @@
 import React from 'react'
+import Animation from '../components/Animation'
 
 function Testingpage() {
   return (
-    <div>This is just a Testingpage</div>
+    <Animation/>
   )
 }
 
